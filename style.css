@@ -8,13 +8,19 @@
 .whiteBox {
     height: 80px;
     width: 80px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blueBox {
     height: 80px;
     width: 80px;
-    background-color: blue
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -25,4 +31,17 @@ body {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.p-black{
+    border-radius:  50% ;   
+    height: 50px;
+    width: 50px; 
+    background-color: black;
+}
+
+.p-white{
+    border-radius:  50% ;   
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue; 
 }
